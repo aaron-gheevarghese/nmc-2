@@ -1,0 +1,42 @@
+[
+  {
+    "id": "f8879251",
+    "created_at": "2025-11-09T17:21:24.899916+00:00",
+    "created_by": "tech1",
+    "status": "AI Review",
+    "user_priority": "Medium",
+    "assigned_to": "",
+    "summary": "gpu cooler error",
+    "description": "gpu cooler is not working properly, maybe not connected, imminent fix needed",
+    "server": "srv-gpu-123",
+    "rack": "3B-04",
+    "priority": "Medium",
+    "validation": {
+      "is_complete": true,
+      "completeness_score": 0.7,
+      "missing_fields": [],
+      "suggestions": {},
+      "auto_enhanced": {}
+    },
+    "priority_analysis": {
+      "calculated_priority": 5,
+      "priority_score": 5,
+      "reasoning": "The ticket describes an urgent hardware issue (GPU cooler failure) that directly impacts system stability and safety. While the scope is limited to one device, the potential for overheating, hardware damage, and cascading failures warrants elevated prioritization.",
+      "factors": {
+        "Impact Scope": 0,
+        "Service Impact": 5,
+        "Urgency": 8,
+        "Safety": 7
+      },
+      "recommended_actions": [
+        "Verify cooler connection and secure it if loose",
+        "Inspect GPU cooling system for physical damage",
+        "Initiate emergency cooling workaround if operational temps exceed safe thresholds",
+        "Schedule hardware replacement if cooler cannot be repaired urgently"
+      ]
+    },
+    "calculated_priority": 5,
+    "priority_score": 5,
+    "needs_priority_review": true
+  }
+]
